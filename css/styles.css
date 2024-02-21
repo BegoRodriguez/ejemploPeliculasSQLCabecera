@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Ysabeau+Infant:wght@1;100;200&display=swap');
+
+
+
+body{
+    font-family: 'Ysabeau Infant', sans-serif;
+    font-size: 1.2em;
+}
+
+.header{
+    background-image: url(../images/Bg-Film.jpg);
+    background-attachment: fixed;
+    background-size: cover; 
+    min-height: 130px; 
+    opacity: 0.8;
+    background-color: #000000;
+}
+.logos{
+    width: 200px;
+}
+
+h1 {
+    font-weight: 800;
+    font-family: 'Caprasimo', cursive;
+    font-size: 3.5em;
+}
+
+h2 {
+    font-weight: 400;
+    color: #dc3545; 
+    font-family: 'Caprasimo', cursive;
+    margin-bottom: 1em;
+
+}
+
+
+/* Lo pongo del mismo tono que el danger del bootstrap */
+.colorDanger{
+    background-color: #dc3545; 
+}
+.nav-link{
+    font-family: 'Caprasimo', cursive;
+    color: white;
+}
+.breadcrumb-item{
+    color: white;
+}
+.breadcrumb-item active{
+    color: yellow;
+}
